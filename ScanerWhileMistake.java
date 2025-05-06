@@ -27,7 +27,7 @@ public class ScanerWhileMistake {
 
         average = total / counter;
 
-        System.out.println("you have earned at average grade of" + average+ " after providing us with 5 grades");
+        System.out.println("you have earned at average grade of" + average+ " after providing us with " +counter+ " grades");
 
         if (average >= 90 && average <= 100) {
             lettergrade = 'A';
