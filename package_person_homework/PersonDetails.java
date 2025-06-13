@@ -17,8 +17,8 @@ public class PersonDetails {
         firstPerson.gender='F';
         firstPerson.age= 33;
         firstPerson.car= "Volkswagen Bug";
-        firstPerson.carYear= 2025;
-        firstPerson.violations= false;
+        firstPerson.carYear= 2009;
+        firstPerson.violations= true;
         firstPerson.creditScore= 700;
 
         secondPerson.name="Kendall";

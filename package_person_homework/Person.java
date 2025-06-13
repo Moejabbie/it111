@@ -56,7 +56,7 @@ public class Person {
     }
 
     public int getCarYear(int adjustedRate2) {
-        if (violations == true && creditScore >= 700 && carYear >= 2015){
+        if (violations == true && creditScore <= 700 && carYear >= 2015){
             adjustedRate2 =200;
 
         }else {
